@@ -210,7 +210,7 @@ nav a {
 }
 .video-container h1 {
     color: aliceblue;
-    font-size: 60px;
+    font-size: 48px;
     margin-bottom: 20px;
     align-items: center;
     padding: 20px;
@@ -220,7 +220,6 @@ nav a {
     max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    border: #00FF88 solid 1px;
     gap: 50px;
     height: 400px;
 }
@@ -228,15 +227,18 @@ nav a {
     text-align: left;
     color: #fff;
     border-radius: 20px;
+    background-color: #351165;
 }
 .video-item iframe {
     width: 100%;
     height: 50%;
     margin-bottom: 10px;
+    border-radius: 20px 20px 0px 0px;
 }
 .video-item h2 {
     font-size: 20px;
     padding:  10px;
+    font-weight: bold;
     
 }
 .video-item  p {
@@ -403,7 +405,23 @@ nav a {
 
     }
     
-    
+    .videos {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100%;
+    }
+    .video-item {
+    text-align: left;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #351165;
+    height: 400px;
+    }
+    .video-item p,.video-item h2 {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
     
 
    
