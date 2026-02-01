@@ -29,6 +29,7 @@ nav a {
     font-size: 18px;
 
 }
+
 .bars {
     background: none;
     border: none;
@@ -90,6 +91,23 @@ nav a {
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
+}
+.sub {
+    border: #00FF88 1px solid;
+    padding: 5px 16px;
+    border-radius: 40px;
+    margin: 0 ;
+}
+.sub img {
+    margin: 0 auto;
+    padding: 10px;
+}
+.button {
+    display: flex;
+    gap: 5px;
+    justify-items: center;
+    justify-content: center;
+
 }
 .para h1{
     font-size: 60px;
@@ -258,6 +276,109 @@ nav a {
     
     
 }
+.host-container {
+    width: 100%;
+    background-color: #1A0B2E;
+    justify-items: center;
+    text-align: center;
+    padding: 60px 20px;
+
+
+}
+.host-container h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.host-container  .host-det {
+    align-items: center;
+
+}
+.host-det {
+    width:1200px ;
+    margin: 0 auto;
+    background-color: #351165;
+    border-radius: 50px;    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    color: #fff;
+    padding: 25px;
+}
+.host-det .host-para {
+    width: 90%;
+    padding: 10px;
+    opacity: 0.6;
+}
+.host-det h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.host-image {
+    width: 350px;
+    margin: 10px;
+}
+.host .social {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    margin-bottom: 10px;
+    
+}
+.social p {
+    border:#533C72 1px solid;
+    padding: 6px;
+    border-radius: 100px;
+} 
+
+.footer {
+    position: relative;
+    width: 100%;
+    background-image: url(../assets/footer-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+}
+.footer-container {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    justify-items: center;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+
+}
+.footer-container h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.social-med {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    display: flex;
+    color: #fff;
+    gap: 10px;
+    padding: 10px;
+    opacity: 1;
+}
+.footer-container span  {
+    opacity: 0.6;
+}
+.footer-container .img {
+    margin: 0 auto;
+}
 @media  screen and (max-width:568px) {
     header > button {
         display: none;
@@ -422,7 +543,84 @@ nav a {
         padding-top: 0;
         padding-bottom: 20px;
     }
+    .host-det {
+    width:400px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0px;
+
+    }
+    .host-image {
+        
+        justify-items: center;
+    }
     
+    .host {
+        justify-items: center;
+        padding-top: 0px;
+    }
+    .host h2 {
+        padding: 0;
+    }
+    .footer {
+    background-image: url(../assets/footer-bg.png) !important;
+    position: relative;
+    top: 0;
+    right: 30px;
+
+    background-size: 568px 250px;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-origin: content-box;
+    width: 568px;
+    height: 250px;
+    
+        
+
+    
+    }
+    .footer-container {
+        position: absolute;
+        top: 50px;
+        left: 145px;
+        justify-items: center;
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        height: 200px;
+
+    }
+    .footer-container h1 {
+        font-size: 30px;
+        font-weight: bolder;
+        margin-bottom: 0px;
+        color: #fff;
+    }
+    .social-med {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0px;
+        margin: 0 auto;
+    }
+    .social-med p {
+        font-size: 10px;
+    }
+    .footer-container p {
+        display: flex;
+        color: #fff;
+        gap: 10px;
+        opacity: 1;
+        font-size: 13px;
+    }
+    .footer-container span  {
+        opacity: 0.6;
+    }
+    .footer-container .img {
+        margin: 0 auto;
+    }
+    
+
 
    
 
